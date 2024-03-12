@@ -6,14 +6,11 @@ public class Main {
 
         num1.contact();
         em1.contact();
-
     }
 }
 
 abstract class Contacts{
     abstract public void contact();
-
-
 }
 
 class Email extends Contacts{
